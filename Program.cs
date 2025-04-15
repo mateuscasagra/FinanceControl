@@ -1,22 +1,39 @@
-﻿class Program
+﻿using System;
+using System.IO;
+
+
+
+class Program
 {
     static void Main(string[] args)
     {
         GerenciadorTransacao gerenciador = new GerenciadorTransacao();
+        Usuarios usuario = new Usuarios();
+        Console.WriteLine("Bem vindo... ");
+        Console.WriteLine("(1) - Cadastrar\n(2) - Login");
+        string resposta = Console.ReadLine();
+        if(resposta == "1"){
+            Console.WriteLine("Digite o Usuário");
+            string login = Console.ReadLine();
+            Console.WriteLine("Digite a Senha");
+            string senha = Console.ReadLine();
+            usuario.CriaUsuario(login, senha);
+        }else if (resposta == "2"){
+            Console.WriteLine("Digite o Usuário");
+            string login = Console.ReadLine();
+            Console.WriteLine("Digite a Senha");
+            string senha = Console.ReadLine();
+            usuario.FazerLogin(login, senha);
+        }
+        while(usuario.StatusLogado()){
+            Menu menu = new Menu();
+            Console.WriteLine("O que deseja?\n(1) - Lançar Registro\n(2) - Relatórios\n(3) - Metas");
+            resposta = Console.ReadLine();
+            menu.MenuInicial(resposta);
+            
 
+        }
        
-        gerenciador.AdicionaTransacao(20250410, "Pix", 150.75f);
-        gerenciador.AdicionaTransacao(20250211, "Mercado", -89.90f);
-        gerenciador.AdicionaTransacao(20240210, "Salário", 2500f);
-
-        Console.WriteLine();
-        gerenciador.ListarTodasTransacoes();
-        Console.WriteLine();
-        gerenciador.ListarTransacoesMes(02);
-        Console.WriteLine();
-        gerenciador.ListarTransacoesDia(10);
-        Console.WriteLine();
-        gerenciador.ListarTransacoesAno(2023);
-        Console.WriteLine();
+        
     }
 }

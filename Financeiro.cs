@@ -4,6 +4,7 @@ class Financeiro
     public string CategoriaTransacao { get; set; }
     public float ValorTransacao { get; set; }
     public string DirecaoTransacao { get; set; }
+    
 
     public Financeiro(int data, string categoria, float valor)
     {
@@ -38,5 +39,9 @@ class Financeiro
         DateTime data = DateTime.ParseExact(dataStr, "yyyyMMdd", null);
         return data.ToString("yyyy");
 
+    }
+
+    public string TransacaoDirecao(){
+        return DirecaoTransacao;
     }
 }

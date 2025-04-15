@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\MATEUSZANDONACASAGRA\\Desktop\\Nova pasta\\Controle financeiro\\Controle financeiro.csproj",
+      "projectUniqueName": "C:\\Users\\MATEUSZANDONACASAGRA\\Desktop\\Nova pasta\\FinanceControl\\Controle financeiro.csproj",
       "projectName": "Controle financeiro",
-      "projectPath": "c:\\Users\\MATEUSZANDONACASAGRA\\Desktop\\Nova pasta\\Controle financeiro\\Controle financeiro.csproj",
+      "projectPath": "C:\\Users\\MATEUSZANDONACASAGRA\\Desktop\\Nova pasta\\FinanceControl\\Controle financeiro.csproj",
       "packagesPath": "C:\\Users\\MATEUSZANDONACASAGRA\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\MATEUSZANDONACASAGRA\\Desktop\\Nova pasta\\Controle financeiro\\obj\\",
+      "outputPath": "C:\\Users\\MATEUSZANDONACASAGRA\\Desktop\\Nova pasta\\FinanceControl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MATEUSZANDONACASAGRA\\AppData\\Roaming\\NuGet\\NuGet.Config"

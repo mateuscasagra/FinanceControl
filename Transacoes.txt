@@ -1,0 +1,5 @@
+21 / 12 / 12 / Entrada
+12 / 12 / 12 / Entrada
+12092004 / cu / 807 / Entrada
+9082012 / cu / -10 / Saída
+9022004 / categoria  / -9899 / Saída
