@@ -6,14 +6,15 @@ class GerenciadorTransacao
 {
     public List<Financeiro> transacoes = new List<Financeiro>();
 
-    public void AdicionaTransacao(int data, string categoria, float valor)
+    public void AdicionaTransacao(DateTime data, string categoria, double valor)
     {
         Financeiro transacao = new Financeiro(data, categoria, valor);
         transacoes.Add(transacao);
 
         using (StreamWriter escreve = new StreamWriter("Transacoes.txt", true))
         {
-            escreve.WriteLine($"{data} / {categoria} / {valor} / {transacao.DirecaoTransacao}");
+            // Usando | como separador
+            escreve.WriteLine($"{data:dd/MM/yyyy}|{categoria}|{valor}|{transacao.DirecaoTransacao}");
         }
     }
 
@@ -42,8 +43,7 @@ class GerenciadorTransacao
     {
         foreach (var transacao in CarregarTransacoesDoArquivo())
         {
-            DateTime data = DateTime.ParseExact(transacao.DataTransacao.ToString(), "yyyyMMdd", null);
-            if (data.Day == dia)
+            if (transacao.DataTransacao.Day == dia)
             {
                 ExibirTransacaoColorida(transacao);
             }
@@ -54,8 +54,7 @@ class GerenciadorTransacao
     {
         foreach (var transacao in CarregarTransacoesDoArquivo())
         {
-            DateTime data = DateTime.ParseExact(transacao.DataTransacao.ToString(), "yyyyMMdd", null);
-            if (data.Month == mes)
+            if (transacao.DataTransacao.Month == mes)
             {
                 ExibirTransacaoColorida(transacao);
             }
@@ -66,8 +65,7 @@ class GerenciadorTransacao
     {
         foreach (var transacao in CarregarTransacoesDoArquivo())
         {
-            DateTime data = DateTime.ParseExact(transacao.DataTransacao.ToString(), "yyyyMMdd", null);
-            if (data.Year == ano)
+            if (transacao.DataTransacao.Year == ano)
             {
                 ExibirTransacaoColorida(transacao);
             }
@@ -76,8 +74,7 @@ class GerenciadorTransacao
 
     private void ExibirTransacaoColorida(Financeiro t)
     {
-        Console.Write($"{t.GetDataFormatada()} - {t.CategoriaTransacao} - {t.ValorTransacao} - ");
-
+        Console.Write($"{t.DataTransacao:dd/MM/yyyy} - {t.CategoriaTransacao} - {t.ValorTransacao} - ");
         Console.ForegroundColor = t.DirecaoTransacao == "Entrada" ? ConsoleColor.Green : ConsoleColor.Red;
         Console.WriteLine(t.DirecaoTransacao);
         Console.ResetColor();
@@ -87,13 +84,15 @@ class GerenciadorTransacao
     {
         try
         {
-            string[] partes = linha.Split('/');
+            string[] partes = linha.Split('|');
             if (partes.Length == 4)
             {
-                int data = int.Parse(partes[0].Trim());
+                string dataStr = partes[0].Trim(); // formato: dd/MM/yyyy
+                DateTime data = DateTime.ParseExact(dataStr, "dd/MM/yyyy", null);
+
                 string categoria = partes[1].Trim();
-                float valor = float.Parse(partes[2].Trim());
-                // A direção é ignorada porque o construtor já define com base no valor
+                double valor = double.Parse(partes[2].Trim());
+
                 return new Financeiro(data, categoria, valor);
             }
         }
@@ -122,4 +121,33 @@ class GerenciadorTransacao
 
         return lista;
     }
+
+    public void TotalTransacoesDia(int dia)
+{
+    double totalEntrada = 0;
+    double totalSaida = 0;
+
+    foreach (var transacao in CarregarTransacoesDoArquivo())
+    {
+        if (transacao.DataTransacao.Day == dia)
+        {
+            if (transacao.ValorTransacao > 0)
+            {
+                totalEntrada += transacao.ValorTransacao;
+            }
+            else
+            {
+                totalSaida += transacao.ValorTransacao; 
+            }
+        }
+    }
+
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"Total Entradas: R$ {totalEntrada:F2}");
+    
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine($"Total Saídas: R$ {Math.Abs(totalSaida):F2}");
+
+    Console.ResetColor();
+}
 }

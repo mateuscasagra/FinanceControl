@@ -1,12 +1,12 @@
 class Financeiro
 {
-    public int DataTransacao { get; set; }
+    public DateTime DataTransacao { get; set; }
     public string CategoriaTransacao { get; set; }
-    public float ValorTransacao { get; set; }
+    public double ValorTransacao { get; set; }
     public string DirecaoTransacao { get; set; }
-    
 
-    public Financeiro(int data, string categoria, float valor)
+
+    public Financeiro(DateTime data, string categoria, double valor)
     {
         DataTransacao = data;
         CategoriaTransacao = categoria;
@@ -16,32 +16,25 @@ class Financeiro
 
     public string GetDataFormatada()
     {
-        string dataStr = DataTransacao.ToString(); 
-        DateTime data = DateTime.ParseExact(dataStr, "yyyyMMdd", null);
-        return data.ToString("dd/MM/yyyy"); 
+        return DataTransacao.ToString("dd/MM/yyyy");
     }
 
-    public string DataDia(){
-        string dataStr = DataTransacao.ToString();
-        DateTime data = DateTime.ParseExact(dataStr, "yyyyMMdd", null);
-        return data.ToString("dd");
-
+    public string DataDia()
+    {
+        return DataTransacao.Day.ToString("D2");
     }
 
-    public string DataMes(){
-        string dataStr = DataTransacao.ToString();
-        DateTime data = DateTime.ParseExact(dataStr, "yyyyMMdd", null);
-        return data.ToString("MM");
-
-    }
-    public string DataAno(){
-        string dataStr = DataTransacao.ToString();
-        DateTime data = DateTime.ParseExact(dataStr, "yyyyMMdd", null);
-        return data.ToString("yyyy");
-
+    public string DataMes()
+    {
+        return DataTransacao.Month.ToString("D2");
     }
 
-    public string TransacaoDirecao(){
-        return DirecaoTransacao;
+    public string DataAno()
+    {
+        return DataTransacao.Year.ToString();
     }
+    public string TransacaoDirecao()
+{
+    return DirecaoTransacao;
+}
 }
