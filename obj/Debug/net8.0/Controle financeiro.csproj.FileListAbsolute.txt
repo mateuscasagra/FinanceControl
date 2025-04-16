@@ -1,29 +1,44 @@
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\bin\Debug\net8.0\Controle financeiro.exe
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\bin\Debug\net8.0\Controle financeiro.deps.json
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\bin\Debug\net8.0\Controle financeiro.runtimeconfig.json
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\bin\Debug\net8.0\Controle financeiro.dll
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\bin\Debug\net8.0\Controle financeiro.pdb
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\Controle financeiro.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\Controle financeiro.AssemblyInfoInputs.cache
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\Controle financeiro.AssemblyInfo.cs
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\Controle financeiro.csproj.CoreCompileInputs.cache
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\Controle financeiro.dll
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\refint\Controle financeiro.dll
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\Controle financeiro.pdb
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\Controle financeiro.genruntimeconfig.cache
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\Controle financeiro\obj\Debug\net8.0\ref\Controle financeiro.dll
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\bin\Debug\net8.0\Controle financeiro.exe
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\bin\Debug\net8.0\Controle financeiro.deps.json
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\bin\Debug\net8.0\Controle financeiro.runtimeconfig.json
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\bin\Debug\net8.0\Controle financeiro.dll
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\bin\Debug\net8.0\Controle financeiro.pdb
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.AssemblyInfoInputs.cache
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.AssemblyInfo.cs
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.csproj.CoreCompileInputs.cache
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.sourcelink.json
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.dll
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\refint\Controle financeiro.dll
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.pdb
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\Controle financeiro.genruntimeconfig.cache
-C:\Users\MATEUSZANDONACASAGRA\Desktop\Nova pasta\FinanceControl\obj\Debug\net8.0\ref\Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/bin/Debug/net8.0/Controle financeiro.exe
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/bin/Debug/net8.0/Controle financeiro.deps.json
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/bin/Debug/net8.0/Controle financeiro.runtimeconfig.json
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/bin/Debug/net8.0/Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/bin/Debug/net8.0/Controle financeiro.pdb
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/Controle financeiro.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/Controle financeiro.AssemblyInfoInputs.cache
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/Controle financeiro.AssemblyInfo.cs
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/Controle financeiro.csproj.CoreCompileInputs.cache
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/refint/Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/Controle financeiro.pdb
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/Controle financeiro.genruntimeconfig.cache
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/Controle financeiro/obj/Debug/net8.0/ref/Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/bin/Debug/net8.0/Controle financeiro.exe
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/bin/Debug/net8.0/Controle financeiro.deps.json
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/bin/Debug/net8.0/Controle financeiro.runtimeconfig.json
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/bin/Debug/net8.0/Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/bin/Debug/net8.0/Controle financeiro.pdb
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.AssemblyInfoInputs.cache
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.AssemblyInfo.cs
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.csproj.CoreCompileInputs.cache
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.sourcelink.json
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/refint/Controle financeiro.dll
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.pdb
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/Controle financeiro.genruntimeconfig.cache
+C:/Users/MATEUSZANDONACASAGRA/Desktop/Nova pasta/FinanceControl/obj/Debug/net8.0/ref/Controle financeiro.dll
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net8.0/Controle financeiro
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net8.0/Controle financeiro.deps.json
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net8.0/Controle financeiro.runtimeconfig.json
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net8.0/Controle financeiro.dll
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net8.0/Controle financeiro.pdb
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.AssemblyInfoInputs.cache
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.AssemblyInfo.cs
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.csproj.CoreCompileInputs.cache
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.sourcelink.json
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.dll
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/refint/Controle financeiro.dll
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.pdb
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/Controle financeiro.genruntimeconfig.cache
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net8.0/ref/Controle financeiro.dll

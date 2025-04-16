@@ -1,0 +1,15 @@
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net9.0/Controle financeiro
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net9.0/Controle financeiro.deps.json
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net9.0/Controle financeiro.runtimeconfig.json
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net9.0/Controle financeiro.dll
+/Users/mateus/Desktop/FinanceControl/bin/Debug/net9.0/Controle financeiro.pdb
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.AssemblyInfoInputs.cache
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.AssemblyInfo.cs
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.csproj.CoreCompileInputs.cache
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.sourcelink.json
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.dll
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/refint/Controle financeiro.dll
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.pdb
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/Controle financeiro.genruntimeconfig.cache
+/Users/mateus/Desktop/FinanceControl/obj/Debug/net9.0/ref/Controle financeiro.dll

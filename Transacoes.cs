@@ -150,4 +150,88 @@ class GerenciadorTransacao
 
     Console.ResetColor();
 }
+ public void TotalTransacoesMes(int mes)
+{
+    double totalEntrada = 0;
+    double totalSaida = 0;
+
+    foreach (var transacao in CarregarTransacoesDoArquivo())
+    {
+        if (transacao.DataTransacao.Month == mes)
+        {
+            if (transacao.ValorTransacao > 0)
+            {
+                totalEntrada += transacao.ValorTransacao;
+            }
+            else
+            {
+                totalSaida += transacao.ValorTransacao; 
+            }
+        }
+    }
+
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"Total Entradas: R$ {totalEntrada:F2}");
+    
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine($"Total Saídas: R$ {Math.Abs(totalSaida):F2}");
+
+    Console.ResetColor();
+}
+ public void TotalTransacoesAno(int ano)
+{
+    double totalEntrada = 0;
+    double totalSaida = 0;
+
+    foreach (var transacao in CarregarTransacoesDoArquivo())
+    {
+        if (transacao.DataTransacao.Year == ano)
+        {
+            if (transacao.ValorTransacao > 0)
+            {
+                totalEntrada += transacao.ValorTransacao;
+            }
+            else
+            {
+                totalSaida += transacao.ValorTransacao; 
+            }
+        }
+    }
+
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"Total Entradas: R$ {totalEntrada:F2}");
+    
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine($"Total Saídas: R$ {Math.Abs(totalSaida):F2}");
+
+    Console.ResetColor();
+}
+ public void TotalTransacoes()
+{
+    double totalEntrada = 0;
+    double totalSaida = 0;
+
+    foreach (var transacao in CarregarTransacoesDoArquivo())
+    {
+        if (transacao.DataTransacao !=null)
+        {
+            if (transacao.ValorTransacao > 0)
+            {
+                totalEntrada += transacao.ValorTransacao;
+            }
+            else
+            {
+                totalSaida += transacao.ValorTransacao; 
+            }
+        }
+    }
+
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"Total Entradas: R$ {totalEntrada:F2}");
+    
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine($"Total Saídas: R$ {Math.Abs(totalSaida):F2}");
+
+    Console.ResetColor();
+}
 }

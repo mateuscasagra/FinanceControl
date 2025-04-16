@@ -63,16 +63,19 @@ class Program
                             Console.WriteLine("Qual o mês buscado?");
                             int mes = int.Parse(Console.ReadLine());
                             transacao.ListarTransacoesMes(mes);
+                            transacao.TotalTransacoesMes(mes);
                             break;
 
                         case "3":
                             Console.WriteLine("Qual o ano buscado?");
                             int ano = int.Parse(Console.ReadLine());
                             transacao.ListarTransacoesAno(ano);
+                            transacao.TotalTransacoesAno(ano);
                             break;
 
                         case "4":
                             transacao.ListarTodasTransacoes();
+                            transacao.TotalTransacoes();
                             break;
                     }
                     break;
